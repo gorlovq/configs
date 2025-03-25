@@ -31,3 +31,21 @@ Clean up by deleting the temporary directory
 ```bash
 cd .. && rm -rf ~/foo
 ```
+
+## Starship Setup
+```bash
+brew install starship
+```
+Open your zsh configuration file
+```bash
+vim ~/.zshrc
+```
+Add the following line to your ~/.zshrc file:
+
+```bash
+eval "$(starship init zsh)"
+```
+Apply the changes:
+```bash
+source ~/.zshrc
+```
