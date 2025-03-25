@@ -1,5 +1,0 @@
-set keymap=russian-jcukenwin
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,
-фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
-
-source ~/.vimrc

@@ -1,0 +1,22 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+[username]
+format = "[$user]($style) "
+style_user = "blue bold"
+style_root = "red bold"
+show_always = true
+disabled = false
+
+[character] 
+success_symbol = '[❯](bold green)' 
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[java]
+disabled = true
+
