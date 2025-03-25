@@ -49,3 +49,24 @@ Apply the changes:
 ```bash
 source ~/.zshrc
 ```
+
+Create and enter a temporary directory for cloning
+```bash
+mkdir -p ~/foo && cd ~/foo
+```
+
+```bash
+git clone https://github.com/gorlovq/configs.git
+```
+
+```bash
+cp -f starship.toml ~/.config/starship.toml
+```
+Overwrite the existing Starship configuration
+```bash
+source ~/.zshrc
+```
+Clean up by deleting the temporary directory
+```bash
+cd .. && rm -rf ~/foo
+```
