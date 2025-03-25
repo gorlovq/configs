@@ -41,7 +41,6 @@ Open your zsh configuration file
 vim ~/.zshrc
 ```
 Add the following line to your ~/.zshrc file:
-
 ```bash
 eval "$(starship init zsh)"
 ```
@@ -54,15 +53,15 @@ Create and enter a temporary directory for cloning
 ```bash
 mkdir -p ~/foo && cd ~/foo
 ```
-
+Clone Configs repository
 ```bash
 git clone https://github.com/gorlovq/configs.git
 ```
-
-```bash
-cp -f starship.toml ~/.config/starship.toml
-```
 Overwrite the existing Starship configuration
+```bash
+cp -f configs/starship.toml ~/.config/starship.toml
+```
+Apply the changes
 ```bash
 source ~/.zshrc
 ```
